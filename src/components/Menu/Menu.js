@@ -14,6 +14,7 @@ class Menu extends Component{
         <h2><a href="#">O nas</a></h2>
         <h2><a href="#">Kontakt</a></h2>
         <h2><a href="#">Szukaj</a></h2>
+      </div>
     );
   }
 }
