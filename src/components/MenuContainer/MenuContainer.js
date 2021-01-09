@@ -9,7 +9,14 @@ class MenuContainer extends Component {
       visible: false
     };
 
+    this.handleMouseDown = this.handleMouseDown.bind(this);
     this.toggleMenu = this.toggleMenu.bind(this);
+  }
+
+  handleMouseDown(e){
+    this.toggleMenu();
+    console.log("clicked");
+    e.stopPropagation();
   }
 
   toggleMenu(){
