@@ -1,8 +1,9 @@
 import React from 'react';
 import ReactDom from 'react-dom';
 import './index.css';
+import MenuContainer from './components/MenuContainer/MenuContainer.js';
 
 ReactDom.render(
-  <p></p>,
-  document.querySelector("#container");
+  <MenuContainer/>,
+  document.querySelector("#container")
 );
